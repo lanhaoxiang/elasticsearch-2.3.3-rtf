@@ -1,0 +1,38 @@
+[2016-06-17 11:06:18,321][INFO ][node                     ] [Tyrannosaur] version[2.3.3], pid[2897], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-17 11:06:18,324][INFO ][node                     ] [Tyrannosaur] initializing ...
+[2016-06-17 11:06:19,573][INFO ][plugins                  ] [Tyrannosaur] modules [lang-groovy, reindex, lang-expression], plugins [marvel-agent, license], sites []
+[2016-06-17 11:06:19,639][INFO ][env                      ] [Tyrannosaur] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [94gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-17 11:06:19,639][INFO ][env                      ] [Tyrannosaur] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-17 11:06:19,640][WARN ][env                      ] [Tyrannosaur] max file descriptors [256] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-17 11:06:24,469][INFO ][node                     ] [Tyrannosaur] initialized
+[2016-06-17 11:06:24,469][INFO ][node                     ] [Tyrannosaur] starting ...
+[2016-06-17 11:06:24,689][INFO ][transport                ] [Tyrannosaur] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-17 11:06:24,698][INFO ][discovery                ] [Tyrannosaur] elasticsearch/8ZGApCDTTfmq1aU23jdRbw
+[2016-06-17 11:06:27,737][INFO ][cluster.service          ] [Tyrannosaur] new_master {Tyrannosaur}{8ZGApCDTTfmq1aU23jdRbw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-17 11:06:27,752][INFO ][http                     ] [Tyrannosaur] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-17 11:06:27,753][INFO ][node                     ] [Tyrannosaur] started
+[2016-06-17 11:06:27,860][INFO ][gateway                  ] [Tyrannosaur] recovered [1] indices into cluster_state
+[2016-06-17 11:06:28,787][INFO ][license.plugin.core      ] [Tyrannosaur] license [ac745586-2c19-4260-ab28-bbeba718e264] - valid
+[2016-06-17 11:06:28,791][ERROR][license.plugin.core      ] [Tyrannosaur] 
+#
+# License will expire on [Sunday, July 17, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+#  - The agent will stop automatically cleaning indices older than [marvel.history.duration]
+[2016-06-17 11:06:28,899][INFO ][cluster.routing.allocation] [Tyrannosaur] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[antcolony][2]] ...]).
+[2016-06-17 11:06:34,713][INFO ][cluster.metadata         ] [Tyrannosaur] [.marvel-es-1-2016.06.17] creating index, cause [auto(bulk api)], templates [.marvel-es-1], shards [1]/[1], mappings [node_stats, cluster_stats, indices_stats, index_recovery, node, shards, _default_, index_stats, cluster_state]
+[2016-06-17 11:06:34,873][INFO ][cluster.metadata         ] [Tyrannosaur] [.marvel-es-data-1] creating index, cause [auto(bulk api)], templates [.marvel-es-data-1], shards [1]/[1], mappings [node, cluster_info]
+[2016-06-17 11:06:34,931][INFO ][cluster.routing.allocation] [Tyrannosaur] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-data-1][0]] ...]).
+[2016-06-17 11:06:35,150][INFO ][cluster.metadata         ] [Tyrannosaur] [.marvel-es-1-2016.06.17] update_mapping [node_stats]
+[2016-06-17 11:06:35,209][INFO ][cluster.metadata         ] [Tyrannosaur] [.marvel-es-1-2016.06.17] update_mapping [cluster_stats]
+[2016-06-17 11:06:35,282][INFO ][cluster.metadata         ] [Tyrannosaur] [.marvel-es-1-2016.06.17] update_mapping [indices_stats]
+[2016-06-17 11:45:43,623][INFO ][cluster.metadata         ] [Tyrannosaur] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2016-06-17 11:45:43,677][INFO ][cluster.routing.allocation] [Tyrannosaur] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-06-17 11:45:46,370][INFO ][cluster.metadata         ] [Tyrannosaur] [.kibana] create_mapping [index-pattern]
+[2016-06-17 15:24:44,866][INFO ][node                     ] [Tyrannosaur] stopping ...
+[2016-06-17 15:24:48,461][INFO ][node                     ] [Tyrannosaur] stopped
+[2016-06-17 15:24:48,462][INFO ][node                     ] [Tyrannosaur] closing ...
+[2016-06-17 15:24:48,475][INFO ][node                     ] [Tyrannosaur] closed

@@ -1,0 +1,59 @@
+[2016-06-12 21:27:05,694][INFO ][node                     ] [Black Death] version[2.3.3], pid[94934], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-12 21:27:05,694][INFO ][node                     ] [Black Death] initializing ...
+[2016-06-12 21:27:06,800][INFO ][plugins                  ] [Black Death] modules [lang-groovy, reindex, lang-expression], plugins [], sites []
+[2016-06-12 21:27:06,884][INFO ][env                      ] [Black Death] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [96.6gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-12 21:27:06,884][INFO ][env                      ] [Black Death] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-12 21:27:06,885][WARN ][env                      ] [Black Death] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-12 21:27:11,054][INFO ][node                     ] [Black Death] initialized
+[2016-06-12 21:27:11,054][INFO ][node                     ] [Black Death] starting ...
+[2016-06-12 21:27:11,208][INFO ][transport                ] [Black Death] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-12 21:27:11,214][INFO ][discovery                ] [Black Death] elasticsearch/ekSEpwCpTACFa2Ix1x5nEg
+[2016-06-12 21:27:14,254][INFO ][cluster.service          ] [Black Death] new_master {Black Death}{ekSEpwCpTACFa2Ix1x5nEg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 21:27:14,274][INFO ][http                     ] [Black Death] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-12 21:27:14,274][INFO ][node                     ] [Black Death] started
+[2016-06-12 21:27:14,314][INFO ][gateway                  ] [Black Death] recovered [0] indices into cluster_state
+[2016-06-12 21:27:33,835][INFO ][node                     ] [Black Death] stopping ...
+[2016-06-12 21:27:33,852][INFO ][node                     ] [Black Death] stopped
+[2016-06-12 21:27:33,853][INFO ][node                     ] [Black Death] closing ...
+[2016-06-12 21:27:33,859][INFO ][node                     ] [Black Death] closed
+[2016-06-12 21:28:22,496][INFO ][node                     ] [Alexander Goodwin Pierce] version[2.3.3], pid[95002], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-12 21:28:22,496][INFO ][node                     ] [Alexander Goodwin Pierce] initializing ...
+[2016-06-12 21:28:23,076][INFO ][plugins                  ] [Alexander Goodwin Pierce] modules [lang-groovy, reindex, lang-expression], plugins [], sites []
+[2016-06-12 21:28:23,102][INFO ][env                      ] [Alexander Goodwin Pierce] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [96.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-12 21:28:23,102][INFO ][env                      ] [Alexander Goodwin Pierce] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-12 21:28:23,103][WARN ][env                      ] [Alexander Goodwin Pierce] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-12 21:28:24,874][INFO ][node                     ] [Alexander Goodwin Pierce] initialized
+[2016-06-12 21:28:24,874][INFO ][node                     ] [Alexander Goodwin Pierce] starting ...
+[2016-06-12 21:28:24,952][INFO ][transport                ] [Alexander Goodwin Pierce] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-12 21:28:24,956][INFO ][discovery                ] [Alexander Goodwin Pierce] elasticsearch/72qUNa0dSH-b6XOg6ghVVw
+[2016-06-12 21:28:28,000][INFO ][cluster.service          ] [Alexander Goodwin Pierce] new_master {Alexander Goodwin Pierce}{72qUNa0dSH-b6XOg6ghVVw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 21:28:28,020][INFO ][http                     ] [Alexander Goodwin Pierce] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-12 21:28:28,020][INFO ][node                     ] [Alexander Goodwin Pierce] started
+[2016-06-12 21:28:28,029][INFO ][gateway                  ] [Alexander Goodwin Pierce] recovered [0] indices into cluster_state
+[2016-06-12 21:28:44,908][WARN ][http.netty               ] [Alexander Goodwin Pierce] Caught exception while handling client http traffic, closing connection [id: 0x3cffd20c, /127.0.0.1:49665 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:89)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:485)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)

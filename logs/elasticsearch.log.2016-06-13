@@ -1,0 +1,50 @@
+[2016-06-13 00:03:47,938][INFO ][node                     ] [Alexander Goodwin Pierce] stopping ...
+[2016-06-13 00:03:47,968][INFO ][node                     ] [Alexander Goodwin Pierce] stopped
+[2016-06-13 00:03:47,968][INFO ][node                     ] [Alexander Goodwin Pierce] closing ...
+[2016-06-13 00:03:47,980][INFO ][node                     ] [Alexander Goodwin Pierce] closed
+[2016-06-13 11:38:11,742][INFO ][node                     ] [Strong Guy] version[2.3.3], pid[2329], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-13 11:38:11,743][INFO ][node                     ] [Strong Guy] initializing ...
+[2016-06-13 11:38:12,766][INFO ][plugins                  ] [Strong Guy] modules [lang-groovy, reindex, lang-expression], plugins [], sites []
+[2016-06-13 11:38:12,830][INFO ][env                      ] [Strong Guy] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [96.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-13 11:38:12,830][INFO ][env                      ] [Strong Guy] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-13 11:38:12,831][WARN ][env                      ] [Strong Guy] max file descriptors [256] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-13 11:38:16,729][INFO ][node                     ] [Strong Guy] initialized
+[2016-06-13 11:38:16,729][INFO ][node                     ] [Strong Guy] starting ...
+[2016-06-13 11:38:16,874][INFO ][transport                ] [Strong Guy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-13 11:38:16,880][INFO ][discovery                ] [Strong Guy] elasticsearch/eSc_YUL3TaeZZCrLRKIHnw
+[2016-06-13 11:38:19,919][INFO ][cluster.service          ] [Strong Guy] new_master {Strong Guy}{eSc_YUL3TaeZZCrLRKIHnw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-13 11:38:19,933][INFO ][http                     ] [Strong Guy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-13 11:38:19,933][INFO ][node                     ] [Strong Guy] started
+[2016-06-13 11:38:19,966][INFO ][gateway                  ] [Strong Guy] recovered [0] indices into cluster_state
+[2016-06-13 11:38:23,856][INFO ][node                     ] [Strong Guy] stopping ...
+[2016-06-13 11:38:23,873][INFO ][node                     ] [Strong Guy] stopped
+[2016-06-13 11:38:23,874][INFO ][node                     ] [Strong Guy] closing ...
+[2016-06-13 11:38:23,881][INFO ][node                     ] [Strong Guy] closed
+[2016-06-13 11:38:45,707][INFO ][node                     ] [Warpath] version[2.3.3], pid[2344], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-13 11:38:45,708][INFO ][node                     ] [Warpath] initializing ...
+[2016-06-13 11:38:46,283][INFO ][plugins                  ] [Warpath] modules [lang-groovy, reindex, lang-expression], plugins [], sites []
+[2016-06-13 11:38:46,309][INFO ][env                      ] [Warpath] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [96.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-13 11:38:46,309][INFO ][env                      ] [Warpath] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-13 11:38:46,310][WARN ][env                      ] [Warpath] max file descriptors [256] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-13 11:38:48,043][INFO ][node                     ] [Warpath] initialized
+[2016-06-13 11:38:48,044][INFO ][node                     ] [Warpath] starting ...
+[2016-06-13 11:38:48,122][INFO ][transport                ] [Warpath] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-13 11:38:48,126][INFO ][discovery                ] [Warpath] elasticsearch/am0S0FehTay1zcyJnvyiGQ
+[2016-06-13 11:38:51,201][INFO ][cluster.service          ] [Warpath] new_master {Warpath}{am0S0FehTay1zcyJnvyiGQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-13 11:38:51,236][INFO ][http                     ] [Warpath] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-13 11:38:51,236][INFO ][node                     ] [Warpath] started
+[2016-06-13 11:38:51,258][INFO ][gateway                  ] [Warpath] recovered [0] indices into cluster_state
+[2016-06-13 13:22:48,684][INFO ][node                     ] [Phalanx] version[2.3.3], pid[3269], build[218bdf1/2016-05-17T15:40:04Z]
+[2016-06-13 13:22:48,685][INFO ][node                     ] [Phalanx] initializing ...
+[2016-06-13 13:22:49,704][INFO ][plugins                  ] [Phalanx] modules [lang-groovy, reindex, lang-expression], plugins [], sites []
+[2016-06-13 13:22:49,768][INFO ][env                      ] [Phalanx] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [98.6gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-06-13 13:22:49,768][INFO ][env                      ] [Phalanx] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-06-13 13:22:49,769][WARN ][env                      ] [Phalanx] max file descriptors [256] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-06-13 13:22:53,690][INFO ][node                     ] [Phalanx] initialized
+[2016-06-13 13:22:53,690][INFO ][node                     ] [Phalanx] starting ...
+[2016-06-13 13:22:53,842][INFO ][transport                ] [Phalanx] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-06-13 13:22:53,847][INFO ][discovery                ] [Phalanx] elasticsearch/5wmcxIisSamwOJtXWhI7sQ
+[2016-06-13 13:22:56,891][INFO ][cluster.service          ] [Phalanx] new_master {Phalanx}{5wmcxIisSamwOJtXWhI7sQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-13 13:22:56,903][INFO ][http                     ] [Phalanx] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-06-13 13:22:56,904][INFO ][node                     ] [Phalanx] started
+[2016-06-13 13:22:56,934][INFO ][gateway                  ] [Phalanx] recovered [0] indices into cluster_state
